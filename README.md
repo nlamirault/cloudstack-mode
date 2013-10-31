@@ -1,7 +1,7 @@
 Cloudstack Emacs Mode
 =====================
 
-``Cloudstack-mode` adds ability to control a
+`Cloudstack-mode` adds ability to control a
 [Cloudstack](http://cloudstack.apache.org/) infrastructure.
 
 ## Installation
@@ -41,9 +41,18 @@ management. Install it and retrieve dependencies :
 
 ### Tests
 
+* Edit a `test/cloudstack.el` file like that :
+
+```lisp
+(setq cloudstack-host "localhost"
+      cloudstack-port "8096"
+      cloudstack-apikey "aaa"
+      cloudstack-secretkey "bbb")
+```
+
 Launch unit tests :
 
-    $ /usr/bin/env emacs --script test/run-tests
+    $ make clean test
 
 ## Changelog
 
