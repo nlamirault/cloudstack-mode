@@ -50,7 +50,7 @@ management. Install it and retrieve dependencies :
       cloudstack-secretkey "bbb")
 ```
 
-Launch unit tests :
+* Launch unit tests :
 
     $ make clean test
 
