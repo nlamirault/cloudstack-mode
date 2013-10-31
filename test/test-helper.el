@@ -32,7 +32,10 @@
 (message "Load Cloudstack Mode : %s" cloudstack-mode-source-dir)
 (load (s-concat cloudstack-mode-source-dir "/cloudstack-mode.elc"))
 
-(load (s-concat cloudstack-mode-testsuite-dir "/resources/cloudstack.el"))
+(let ((cs-config (s-concat cloudstack-mode-testsuite-dir "/cloudstack.el")))
+  (if (f-exists? cs-config)
+      (load cs-config)
+    (error "No configuration file : %s" cs-config)))
 
 (provide 'test-helper)
 ;;; test-helper.el ends here
