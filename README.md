@@ -4,6 +4,9 @@ Cloudstack Emacs Mode
 `Cloudstack-mode` adds ability to control a
 [Cloudstack](http://cloudstack.apache.org/) infrastructure.
 
+[![Build Status](https://api.travis-ci.org/nlamirault/cloudstack-mode.png?branch=master)](http://travis-ci.org/nlamirault/cloudstack-mode)
+
+
 ## Installation
 
 The recommended way to install ``Cloudstack-mode`` is via [MELPA](http://melpa.milkbox.net/):
