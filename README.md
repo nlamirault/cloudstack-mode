@@ -6,8 +6,9 @@ Cloudstack Emacs Mode
 
 ## Installation
 
-The recommended way to install ``Cloudstack-mode`` is via [MELPA](http://melpa.milkbox.net/)
-or [Marmalade](http://marmalade-repo.org/).
+The recommended way to install ``Cloudstack-mode`` is via [MELPA](http://melpa.milkbox.net/):
+
+    M-x package-install cloudstack-mode
 
 
 ## Usage
